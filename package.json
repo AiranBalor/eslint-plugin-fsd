@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-fsd-frontend-advanced",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "fsd plugin",
   "keywords": [
     "eslint",
