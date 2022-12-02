@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const rule = require("../../../lib/rules/pathy-checker"),
+const rule = require("../../../lib/rules/path-checker"),
   RuleTester = require("eslint").RuleTester;
 
 
@@ -17,7 +17,7 @@ const rule = require("../../../lib/rules/pathy-checker"),
 //------------------------------------------------------------------------------
 
 const ruleTester = new RuleTester();
-ruleTester.run("pathy-checker", rule, {
+ruleTester.run("path-checker", rule, {
   valid: [
     // give me some code that won't trigger a warning
   ],
